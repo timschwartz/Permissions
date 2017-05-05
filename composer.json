@@ -1,0 +1,19 @@
+{
+    "name": "timschwartz/permissions",
+    "authors": [
+        {
+            "name": "Tim Schwartz",
+            "email": "tim@timscomputerservices.com"
+        }
+    ],
+    "require": {},
+    "autoload": {
+        "classmap": [
+            "src/models"
+        ],
+        "psr-4": {
+            "App\\": "app/",
+            "timschwartz\\Permissions\\": "src/"
+        }
+    }
+}
